@@ -1,0 +1,72 @@
+body {
+    font: 12px Verdana, sans-serif;
+    background: #ccc;
+}
+
+#container {
+    position: relative;
+    width: 900px;
+    padding: 10px 10px 90px 10px;
+    margin: 0 auto;
+    background: #fff;
+}
+
+#logo {
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+}
+#logo img {
+    border: none;
+}
+
+#menu {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    clear: both;
+}
+#menu li {
+    display: inline;
+    list-style: none;
+    margin: 0 10px;
+    padding: 0;
+    float: left;
+}
+
+h1 {
+    font-weight: normal;
+}
+
+table {
+    width: 100%;
+}
+
+th {
+    text-align: left;
+}
+
+.hours {
+    text-align: right;
+}
+
+td {
+    border: 1px solid #ccc;
+    padding: 2px;
+}
+
+.datepicker {
+    float: left;
+    margin-right: 30px;;
+}
+
+.clear {
+    clear: both;
+}
+
+a {
+   color: #1b191c;
+}
